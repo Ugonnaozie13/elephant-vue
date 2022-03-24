@@ -1,0 +1,79 @@
+app.component('table',{
+
+template:
+/*html*/
+<div class="main_content">
+<div class="header">Acumen Digital Interview Task/ Elephantom</div>  
+<div class="info">
+    <table class="content-table">
+        <thead >   
+         <tr>
+           <th>S/N</th>
+           <th>Name</th>
+           <th>Species</th>
+           <th>Affiliation</th>
+           <th>DOB</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>1</td>
+            <td>name</td>
+            <td>Species</td>
+            <td>Affiliation</td>
+            <td>DOB</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>name</td>
+            <td>Species</td>
+            <td>Affiliation</td>
+            <td>DOB</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>name</td>
+            <td>Species</td>
+            <td>Affiliation</td>
+            <td>DOB</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>name</td>
+            <td>Species</td>
+            <td>Affiliation</td>
+            <td>DOB</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>name</td>
+            <td>Species</td>
+            <td>Affiliation</td>
+            <td>DOB</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>name</td>
+            <td>Species</td>
+            <td>Affiliation</td>
+            <td>DOB</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>name</td>
+            <td>Species</td>
+            <td>Affiliation</td>
+            <td>DOB</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>name</td>
+            <td>Species</td>
+            <td>Affiliation</td>
+            <td>DOB</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>
+})
