@@ -13,6 +13,18 @@ body{
    background-color: #f3f5f9;
 }
 
+.logo-container{
+position: absolute;
+width: 191px;
+height: 191px;
+border-radius: 100px;
+background: #FFFFFF;
+}
+.logo img{
+  height: 100px;
+  margin: 45px;
+}
+
 .wrapper{
   display: flex;
   position: relative;
@@ -26,11 +38,10 @@ body{
   position: fixed;
 }
 
-.wrapper .sidebar h2{
-  color:white ;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 30px;
+
+
+.wrapper .sidebar ul{
+  margin-top: 220px;
 }
 
 .wrapper .sidebar ul li{

@@ -2,9 +2,7 @@ app.component('table',{
 
 template:
 /*html*/
-<div class="main_content">
-<div class="header">Acumen Digital Interview Task/ Elephantom</div>  
-<div class="info">
+
     <table class="content-table">
         <thead >   
          <tr>
@@ -74,6 +72,4 @@ template:
         </tr>
     </tbody>
 </table>
-</div>
-</div>
 })
