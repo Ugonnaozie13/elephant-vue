@@ -90,21 +90,22 @@ left: 50px;
 }
 
 .content-table{
-    border-collapse: collapse;
-    margin: 100px 0;
-    font-size: 0.9em;
-    min-width: 1000px;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden; 
-    box-shadow: 0 0 20px rgb(230, 224, 224);
+  border-collapse: collapse;
+  margin: 100px 0;
+  font-size: 0.9em;
+  min-width: 1000px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden; 
+  box-shadow: 0 0 20px rgb(230, 224, 224);
 }
 
-.content-table thead tr{
-    background-color: rgb(190, 182, 182);
+ .content-table thead tr{
+    background-color: #E5E5E5;
     color: black;
     text-align: left;
     font-weight: bold;
 }
+
 
 
 .content-table th,
@@ -117,10 +118,10 @@ left: 50px;
 }
 
 .content-table tbody tr:nth-of-type(even){
-    background-color: rgb(241, 232, 232);
+    background-color: #F5F5F5;
 }
 
-.content-table tbody tr:last-of-type{
+ .content-table tbody tr:last-of-type{
     border-bottom: 2px solid;
 }
 

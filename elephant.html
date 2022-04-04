@@ -29,12 +29,23 @@
         <div class="main_content">
             <div class="header">Acumen Digital Interview Task / Elephantom > Elephant</div> 
             <div class="info">
-             <img src="/willy.jpeg">
+             <img src="images/willy.jpeg">
               <div><strong>Tuffi</strong> female</div>
-              <hr>
-              <div>A female circus elephant became famous in Germany during 1950 when she accidentaly fell into the River Wupper and survived</div>
+              <div id="app">
+                <div v-html="htmlcontent"></div>
+            </div>
           </div>
         </div>
     </div>
+    <script>
+         var app =  new Vue({
+            el:'#app',
+            data:{
+                htmlcontent:`
+                <hr>
+              <div>A female circus elephant became famous in Germany during 1950 when she accidentaly fell into the River Wupper and survived</div>`
+            }
+        })
+              </script>
 </body>
 </html>

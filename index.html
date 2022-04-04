@@ -25,17 +25,15 @@
             <div class="info">
             </div>
             <div id="app">
-                <p v-html="htmlcontent"></p>
+                <div v-html="htmlcontent"></div>
             </div>
         </div>
     </div>
-    <script src="./main.js"></script>
-    <script src="./components/table.js"></script>
     <script>
         var app =  new Vue({
             el:'#app',
             data:{
-                htmlcontent:`<h1> <table class="content-table">
+                htmlcontent:`<table class="content-table">
                 <thead >   
                 <tr>
                 <th>S/N</th>
@@ -46,65 +44,65 @@
                 </tr>
             </thead>
             <tbody>
+             
                 <tr>
                     <td>1</td>
-                    <td>name</td>
+                    <td>Name</td>
                     <td>Species</td>
                     <td>Affiliation</td>
                     <td>DOB</td>
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>name</td>
+                    <td>Name</td>
                     <td>Species</td>
                     <td>Affiliation</td>
                     <td>DOB</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td>name</td>
+                    <td>Name</td>
                     <td>Species</td>
                     <td>Affiliation</td>
                     <td>DOB</td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td>name</td>
+                    <td>Name</td>
                     <td>Species</td>
                     <td>Affiliation</td>
                     <td>DOB</td>
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td>name</td>
+                    <td>Name</td>
                     <td>Species</td>
                     <td>Affiliation</td>
                     <td>DOB</td>
                 </tr>
                 <tr>
                     <td>6</td>
-                    <td>name</td>
+                    <td>Name</td>
                     <td>Species</td>
                     <td>Affiliation</td>
                     <td>DOB</td>
                 </tr>
                 <tr>
                     <td>7</td>
-                    <td>name</td>
+                    <td>Name</td>
                     <td>Species</td>
                     <td>Affiliation</td>
                     <td>DOB</td>
                 </tr>
                 <tr>
                     <td>8</td>
-                    <td>name</td>
+                    <td>Name</td>
                     <td>Species</td>
                     <td>Affiliation</td>
                     <td>DOB</td>
                 </tr>
             </tbody>
-        </table>
-        </h1>`
+        </table>`
             }
         })
       </script>
