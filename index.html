@@ -27,13 +27,21 @@
             <div id="app">
                 <div v-html="htmlcontent"></div>
             </div>
+            
+            
         </div>
     </div>
+    
     <script>
         var app =  new Vue({
             el:'#app',
             data:{
                 htmlcontent:`<table class="content-table">
+                <thead >   
+                <tr>
+                <th>All Elephants</th>
+                </tr>
+            </thead>
                 <thead >   
                 <tr>
                 <th>S/N</th>
@@ -101,10 +109,25 @@
                     <td>Affiliation</td>
                     <td>DOB</td>
                 </tr>
+                <tr>
+                    <td><div class="page_controller">
+                <p> Page 1 of 10</p>
+                
+                <button class="btn" type="button"> &lt; </button>
+                    <button class="btn" type="button"> 1</button>
+                    <button class="btn" type="button"> 2</button>
+                    <button class="btn" type="button"> &gt; </button>
+
+                </div>    
+                </tr>
             </tbody>
         </table>`
-            }
+    }
         })
+
+
+       
       </script>
+
 </body>
 </html>

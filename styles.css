@@ -121,9 +121,12 @@ left: 50px;
     background-color: #F5F5F5;
 }
 
- .content-table tbody tr:last-of-type{
-    border-bottom: 2px solid;
+.btn{
+  width: 40px;
+  height: 40px;
 }
-
+.page_controller{
+  display: flex;
+}
 
 
