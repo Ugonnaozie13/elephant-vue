@@ -100,7 +100,7 @@ left: 50px;
 }
 
  .content-table thead tr{
-    background-color: #E5E5E5;
+    background-color: white;
     color: black;
     text-align: left;
     font-weight: bold;
@@ -127,6 +127,7 @@ left: 50px;
 }
 .page_controller{
   display: flex;
+  align-items: center;
 }
 
 
